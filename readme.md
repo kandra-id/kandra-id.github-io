@@ -1,1 +1,2 @@
-testing to build personal portfolio site on github page
+# Resume of Kandra Wilko
+
