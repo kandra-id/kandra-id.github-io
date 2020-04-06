@@ -1,2 +1,2 @@
-# Resume of Kandra Wilko
+# My Resume
 
