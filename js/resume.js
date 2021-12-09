@@ -24,5 +24,23 @@
   $('body').scrollspy({
     target: '#sideNav'
   });
-
+  
+  // Using Youtube Profile Picture 
+  $.ajax({
+    url: 'https://www.googleapis.com/youtube/v3/channels',
+    method: 'GET',
+    dataType: 'json',
+    data: {
+      part: 'snippet',
+      id: 'UCaL1L-np8fBWIW4jPE7IwcQ',
+      key: 'AIzaSyCzENFDxuID-bKQgX_NocDQPYNtWp7uHjE'
+    },
+    success: function(data){
+      let profileImgUrl = data.items[0].snippet.thumbnails.high.url;
+        $(".img-profile").attr({
+            src: profileImgUrl,
+            alt: 'Kandra Wilko'
+        });
+    }
+  });
 })(jQuery); // End of use strict
