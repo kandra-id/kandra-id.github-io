@@ -12,10 +12,13 @@
         <h1 class="mb-0">Kandra
           <span class="text-primary">Wilko</span>
         </h1>
-        <div class="subheading mb-5">An experience administrative marketing group staff of Sharia Branch of Megainsurance. Graduated from Universitas Negeri Padang with 3.36 GPA in English Literatures. Owner of <a href="https://domainmurah.biz.id" alt="Indonesia Domain Name Registrar">www.domainmurah.biz.id</a> to help Indonesian people going global with 4.0 industry.
-          <a href="mailto:{{ site.email | encode_email }}">halo@kandra.id</a>
+        <div class="subheading mb-5">
+		<p>A former staff of marketing group sharia insurance unit who made risky decision to resign when Covid-19 delta variant spread.</p> 
+		<p>His recent activities, while waiting for answer from several companies, are learning about how to make a website and how to be a digital marketer.</p>
+		<p>In the next year this father of 2 kids want to be a <span class="text-primary
+		">Junior Front End Developer </span> that not only know how to use basic web code but also mix it with the mind of a <span class="text-primary">marketer</span>. </p>
         </div>
-        <p class="lead mb-5">Lets Connects! Find me on these sites</p>
+        <p class="lead mb-5">Contact Me Know</p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/kandra-wilko/" target="_blank" rel="noopener">
             <i class="fab fa-linkedin-in"></i>
@@ -23,9 +26,11 @@
           <a href="https://github.com/kandra-id/" target="_blank" rel="noopener">
             <i class="fab fa-github"></i>
           </a>
+		  <!--
           <a href="#">
             <i class="fab fa-twitter"></i>
           </a>
+		  -->
           <a href="https://facebook.com/kanderation" target="_blank" rel="noopener">
             <i class="fab fa-facebook-f"></i>
           </a>
@@ -43,7 +48,7 @@
           <div class="resume-content">
             <h3 class="mb-0">Travel &amp; Sharia Insurance</h3>
             <div class="subheading mb-3">Asuransi Umum Mega, PT</div>
-            <p>Developing work flow of umra travel insurance, coordinating with Religion Ministry database system, finding new partner to sell umra travel insurance.</p>
+            <p>Developing work flow of umra travel insurance, coordinating with Religion Ministry database system, finding new partner to sell umra travel insurance products.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">January 2020 - October 2020</span>
@@ -91,12 +96,11 @@
         </div>
         
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
             <h3 class="mb-0">Universitas Negeri Padang</h3>
             <div class="subheading mb-3">Bachelor of English Literature</div>
-            <p>The Power of Jews on Philip Roth's The Plots Against America</p>
-            <p>GPA: 3.36</p>
+            <!--<p>The Power of Jews on Philip Roth's The Plots Against America. GPA: 3.36</p>-->
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">May 2002 - September 2007</span>
@@ -117,25 +121,6 @@
     </section>
 
     <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="story">
-      <div class="w-100">
-        <h2 class="mb-5">
-          My Stories
-        </h2>
-       {{ content }}
-       <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-        <div class="resume-content">
-          {% for post in site.posts %}
-          <a href="{{ post.url }}"><h3 class="subheading"> {{post.title}} </h3></a>
-          {% endfor %}
-        </div>
-       </div>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
         <h2 class="mb-5">Interests</h2>
@@ -165,6 +150,24 @@
         </ul>
       </div>
     </section>
+    <hr class="m-0">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="story">
+      <div class="w-100">
+        <h2 class="mb-5">
+          My Stories
+        </h2>
+       {{ content }}
+       <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+        <div class="resume-content">
+          {% for post in site.posts %}
+          <a href="{{ post.url }}"><h3 class="subheading"> {{post.title}} </h3></a>
+          {% endfor %}
+        </div>
+       </div>
+      </div>
+    </section>
+
+
 
 
 {% include script.html %}
