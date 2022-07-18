@@ -9,9 +9,14 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
-        <h1 class="mb-0">Kandra
-          <span class="text-primary">Wilko</span>
+        <!--
+            Start Judul Artikel
+        -->
+        <h1 class="mb-0"> {{ page.title }}
         </h1>
+        <!--
+            End Judul Artikel
+        -->
         <div class="subheading mb-5">An experience administrative marketing group staff of Sharia Branch of Megainsurance. Graduated from Universitas Negeri Padang with 3.36 GPA in English Literatures. Owner of <a href="https://domainmurah.biz.id" alt="Indonesia Domain Name Registrar">www.domainmurah.biz.id</a> to help Indonesian people going global with 4.0 industry.
           <a href="mailto:{{ site.email | encode_email }}">halo@kandra.id</a>
         </div>
@@ -117,23 +122,38 @@
     </section>
 
     <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="story">
+<!--
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
-        <h2 class="mb-5">
-          My Stories
-        </h2>
-       {{ content }}
-       <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-        <div class="resume-content">
-          {% for post in site.posts %}
-          <a href="{{ post.url }}"><h3 class="subheading"> {{post.title}} </h3></a>
-          {% endfor %}
-        </div>
-       </div>
-      </div>
-    </section>
+        <h2 class="mb-5">Skills</h2>
 
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-wordpress"></i>
+          </li>
+          <li class="list-inline-item">
+          <i class="fab fa-blogger-b"></i>
+            </li>
+          <li class="list-inline-item">
+            <i class="fab fa-python"></i>
+          </li>
+          <li class="list-inline-item">
+          <i class="fab fa-yoast"></i>
+          </li>
+        </ul>
+
+    </section>
+-->
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
