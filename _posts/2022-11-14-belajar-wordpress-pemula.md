@@ -1,43 +1,73 @@
 ---
 layout: post
-title: Belajar Wordpress Pemula
-category: journey
+title: "Yuk Pelaku UKM Mulai Miliki Toko Online Sendiri"
+category: informasi
 permalink: /belajar-wordpress-pemula
 date: 2022-11-14 11:59 +0700
 ---
-Apa saja yang harus dipelajari oleh seorang pemula dalam menggunakan wordpress untuk membuat website yang diinginkan?
+Pernah tidak Anda mendengar saran dari **Jaya Setiabudi** yang mengatakan, pemilik bisnis UKM jangan terlalu mengandalkan marketplace untuk menjual produk? Lebih tegas lagi mentor UKM di Indonesia menyarankan agar pebisnis UKM agar memiliki **toko online**-nya sendiri.
 
-Saya akan mencoba membagi penggunaan wordpress ini menjadi dua
+Kira-kira kenapa **founder Yubi.id** tersebut berpendapat demikian?
 
-1. penggunaan wordpress dengan hosting biasa atau yang lebih dikenal dengan self-hosted wordpress, dan
-2. penggunaan wordpress dengan layanan managed wordpress hosting
+Ternyata ada rahasia-rahasia gelap yang tidak banyak diketahui oleh pebisnis UKM yang dilakukan oleh **marketplace**. 
 
-Meskipun sama-sama menggunakan wp untuk membuat sebuah website, saya menemukan adanya perbedaan yang signifikan dari penggunaan salah satu dari 2 kategori diatas.
+Rahasia-rahasia gelap marketplace ini diungkapkan oleh Mas J, begitu panggilannya, di kanal youtube miliknya. Dalam salah satu video beliau menyebutkan bahwa situs **marketplace** memiliki alat yang bernama algoritma dan database yang digunakan untuk mengeksploitasi penggunanya termasuk penjual. 
 
-Untuk kategori pertama penggunaan wordpress dengan hosting biasa berarti pengguna harus mempelajari beberapa perangkat lain seperti Cpanel selain fitur dari Wordpress itu sendiri.
+Apa itu Algoritma?
 
-Dibanyak panduan untuk membuat website dengan wordpress yang ditemui di internet (baik tulisan maupun video) para calon pengguna wp diperkenalkan dengan makhluk baru bernama Cpanel. 
+Dikutip dari situs [wikipedia](https://id.wikipedia.org/wiki/Algoritma), pengertian algoritma adalah rangkaian terbatas dari instruksi-instruksi rumit yang digunakan untuk menyelesaikan atau menjalankan suatu kelompok masalah komputasi tertentu. 
 
-Fungsi Cpanel yang disampaikan sangat singkat. 
+Sedangkan [database](https://id.wikipedia.org/wiki/Pangkalan_data) atau basis data atau pangkalan data adalah kumpulan data yang terorganisir yang umumnya bisa disimpan dan diakses secara elektronik melalui suatu sistem komputer.
 
-Yaitu sebagai awal untuk menginstal wordpress. Setelah itu Cpanel akan ditinggalkan sementara.
+Masalahnya marketplace tidak diberikan **hak akses** ke database untuk Anda sebagai pemilik produk.
 
-Sampai akhirnya ...
+Contoh kasus marketplace oren yang pernah diduga melakukan pembunuhan terhadap UKM di Indonesia. Marketplace oren mengumpulkan **data produk, karakter pembeli, dan data penjual** untuk digunakan menciptakan produk yang hampir sama dengan harga jual lebih murah dibandingkan produk UKM Indonesia lainnya. 
 
-... pengguna wordpress tergiur untuk melakukan utak atik peladen mereka sendiri dengan Cpanel.
+Akibatnya akan terjadi perang harga di jenis produk yang sama, dan yang diuntungkan adalah pemilik marketplace. Karena transaksi di marketplace akan meningkat tetapi di sisi lain pemilik produk UKM laris akan dipaksa untuk memangkas margin harga jual.
 
-Saking banyaknya hal yang ingin dilakukan di peladen untuk mengoptimalkan kecepatan situs atau melakukan konfigurasi lainnya, fokus pengguna wordpress ini pun terganggu. 
+Perang harga yang berlangsung di marketplace akan berdampak buruk bagi kelangsungan bisnis UKM.
 
-Mereka akan lebih sibuk belajar dan praktek untuk mengoptimasi website menjadi lebih baik dari sebelumnya sehingga melupakan tujuan utama mereka membuat sebuah website seperti mempromosikan website atau memproduksi konten website.
+Untuk menghindari perang harga dan kelangsungan bisnis UKM, Mas J menganjurkan para pemilik UKM untuk memiliki situs toko online sendiri. 
 
-Inilah yang tidak disampaikan oleh para master yang membuat tutorial di berbagai media yang tidak disadari hingga saat ini.
+Pada awal pendirian website sendiri, marketplace tidak harus ditinggalkan. Lebih lanjut, mentor yang kadang dipanggil Juragan ini, memberikan jalan sebagai berikut
 
-Berbeda dengan layanan managed wordpress hosting yang ditawarkan. Dengan biaya lebih mahal kita, konten kreator, (kalau bisa disebut begitu) bisa lebih fokus dalam mempromosikan konten dan memproduksi konten baru.
+Pemilik produk bisa tetap menggunakan marketplace dalam penetrasi pasar namun disarankan hanya digunakan untuk strategi **jangka pendek**. Untuk strategi jangka panjang pemilik UKM harus mengembangkan online store sendiri.  
 
-Namun ada juga kekurangannya. Pengguna managed wordpress hosting tidak bisa melakukan perubahan di sisi peladen. 
+Caranya setiap penjualan terjadi di marketplace atau medsos, selipkan vocer diskon untuk pembelian produk di toko online sendiri. Sehingga tidak hanya toko online menjadi dikenal tetapi juga siap untuk meninggalkan marketplace.
 
-Jika sebelumnya Anda pernah membuka akun wordpress gratis di wordpress.com, saya pikir Anda tahu maksud saya.
+Nah, bagaimana caranya memiliki website toko sendiri seperti yang disarankan oleh Mas J?
 
-Kita mungkin bisa menginstal berbagai tema dan plugin yang diinginkan pada website wordpress yang dimiliki, tetapi jika kita ingin melakukan modifikasi lebih lanjut dengan menggunakan database dan peladen, hal ini tidak mungkin dilakukan karena tidak diberikan akses untuk ke peladen.
+Ada banyak cara untuk memiliki website toko online sendiri karena saat ini untuk membuat website sederhana tidak lagi memerlukan pengetahuan teknologi informasi atau komputer.
 
-Pertimbangan-pertimbangan diatas saya dapatkan dari pengalaman menggunakan dan mengelola website berbasis wordpress sendirian selama beberapa tahun. Anda bisa mengambil keputusan apapun yang Anda mau sesuai dengan kebutuhan Anda.
+Setidaknya ada beberapa platform yang memberikan kemudahan untuk membuat website toko online sendiri, beberapa diantaranya adalah
+
+1. Google Sites
+2. Google Business
+3. Wix
+4. Wordpress.com
+5. Blogger.com
+6. Cardd
+7. Webly
+8. Yubi
+
+dan masih banyak lagi.
+
+Masing-masing platform memiliki kemudahan penggunaan maupun kelemahannya sendiri dalam menggunakan dan mengembangkan bisnis UKM.
+
+Pada artikel kali ini saya mencoba membahas satu platform yang menurut saya lebih mudah digunakan oleh pemula dalam membuat website dengan kategori toko online yaitu [wordpress.com](https://wordpress.com/refer-a-friend/3oMqJZ6f7wLvpyGmKMQ9/).
+
+Kenapa saya merekomendasikan membuat website toko online di [wordpress.com](https://wordpress.com/refer-a-friend/3oMqJZ6f7wLvpyGmKMQ9/)?
+
+Platform wordpress merupakan platform yang paling banyak digunakan untuk membuat website di dunia. Menurut data Automattic, perusahaan pemilik layanan wordpress.com, hampir 43% website yang kita temui di intenet menggunakan wordpress, baik itu website pemerintah, organisasi nirlaba, website personal, maupun website bisnis.
+
+Kemudahan penggunaan dan pemeliharaan website merupakan salah satu daya tarik platform ini banyak digunakan oleh orang-orang di dunia. Selain kemudahan penggunaan, situs wordpress yang kita miliki bisa ditambahkan fitur-fitur khusus yang disesuaikan dengan kebutuhan. Contoh jika kita ingin membuat toko online sendiri, maka kita bisa menggunakan plugin wordpress bernama **woocommerce**.
+
+Plugin ini dapat langsung diaktifkan melalui dashboard akun wordpress Anda. Syarat penggunaan plugin woocommerce di wordpress.com adalah Anda harus mendaftar di **[wordpress hosting bisnis](https://wordpress.com/refer-a-friend/3oMqJZ6f7wLvpyGmKMQ9/)**.
+
+Dengan mengambil **plan wordpress bisnis**, kita tidak repot mengelola server atau peladen. Wordpress.com sebagai penyedia layanan telah memberikan semua kemudahan dalam pemeliharaan ruang server dan database. Istilahnya sekarang adalah **managed wordpress hosting** atau hosting wordpress yang terkelola.
+
+Sederhananya untuk urusan teknis pemeliharaan website serahkan ke tim wordpress.com, Anda sebagai pelaku bisnis cukup fokus membuat konten edukasi produk maupun informasi relevan lainnya kepada pelanggan atau calon pembeli serta melayani penjualan dan distribusi produk.
+
+Kita tadi membicarakan database pelanggan yang menjadi milik sendiri, bagaimana dengan database di wordpress.com? Apakah bisa kita dapatkan akses kesana?
+
+Tentu saja. Hanya saja ketika mendaftar kita harus memilih **wordpress bisnis**, bukan personal, profesional apalagi gratis.
