@@ -71,3 +71,26 @@ Sederhananya untuk urusan teknis pemeliharaan website serahkan ke tim wordpress.
 Kita tadi membicarakan database pelanggan yang menjadi milik sendiri, bagaimana dengan database di wordpress.com? Apakah bisa kita dapatkan akses kesana?
 
 Tentu saja. Hanya saja ketika mendaftar kita harus memilih **wordpress bisnis**, bukan personal, profesional apalagi gratis.
+
+Berapa harga plan wordpress bisnis?
+![harga plan wordpress business](/img/woo-wpcom-confirm-business-plan-price.png)
+
+Yup. **Tiga juta** lebih. 
+
+Menurut saya harga plan ini terlalu mahal dibandingkan plan yang hampir serupa yang ditawarkan oleh salah satu perusahaan web hosting yang saat ini saya gunakan, idcloudhost.com.
+
+Namun dari pengalaman saya harga plan bisnis dari wp.com lebih masuk akal dibandingkan dengan plan dari idcloudhost. 
+
+Bukan saya memandang sebelah mata perusahaan hosting lokal, karena saya percaya kemampuan anak-anak negeri yang jauh dari berita arus utama. Tapi wp.com memiliki karyawan yang benar-benar fokus pada pelayanan web berbasis wordpress. 
+
+Idcloudhost meskipun memiliki layanan yang hampir sama namun mereka tidak fokus pada satu platform, yaitu wordpress. Perusahaan web hos ini harus berbagi layanan dengan platform-platform lain yang pastinya memiliki treatment berbeda dengan kebutuhan wordpress sendiri.
+
+Saya juga pernah membaca artikel bahwa ada sebagian kecil dari anak-anak Indonesia yang bekerja sambilan sebagai **happy engineer**, istilah teknisi dan pelayanan pelanggan, disana. 
+
+Kekurangannya jika kita harus mengambil plan bisnis di wp.com selain harga yang cukup mahal tadi adalah anda harus bisa berkomunikasi dengan bahasa Inggris. 
+
+Yup.
+
+Bahasa Inggris tetap menjadi bahasa pengantar bagi pelanggan di wp.com, meskipun pengguna wordpress di Indonesia merupakan pengguna terbanyak kedua di dunia. Yah orang Indonesia pada umumnya lebih memilih menggunakan layanan gratis wordpress dibandingkan harus meningkatkan keanggotaan ke bisnis atau profesional.
+
+Padahal banyak fitur yang bisa dimanfaatkan jika meningkatkan keanggotaan mereka. (Catat: Bagi yang sudah menghasilkan uang dari konten di blog wp.com tentunya)
