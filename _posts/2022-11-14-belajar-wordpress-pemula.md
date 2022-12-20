@@ -73,7 +73,7 @@ Kita tadi membicarakan database pelanggan yang menjadi milik sendiri, bagaimana 
 Tentu saja. Hanya saja ketika mendaftar kita harus memilih **wordpress bisnis**, bukan personal, profesional apalagi gratis.
 
 Berapa harga plan wordpress bisnis?
-![harga plan wordpress business](/img/woo-wpcom-confirm-business-plan-price.png)
+![harga plan wordpress business]({{ site.baseurl }}/img/woo-wpcom-confirm-business-plan-price.png)
 
 Yup. **Tiga juta** lebih. 
 
