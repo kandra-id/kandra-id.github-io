@@ -1,0 +1,12 @@
+---
+layout: new-default
+title: Racun Tokped
+permalink: /tokopedialink
+---
+        <ul class="list-unstyled">
+            {% for tpl in site.data.tokped %}
+            <li class="my-1">
+                <a href="{{ tpl.uri }}" target="_blank" class="btn btn-primary">{{ tpl.produk }}</a>
+            </li>
+            {% endfor %}
+        </ul>
