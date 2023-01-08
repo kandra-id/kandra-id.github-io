@@ -73,8 +73,7 @@ Kita tadi membicarakan database pelanggan yang menjadi milik sendiri, bagaimana 
 Tentu saja. Hanya saja ketika mendaftar kita harus memilih **wordpress bisnis**, bukan personal, profesional apalagi gratis.
 
 Berapa harga plan wordpress bisnis?
-![harga plan wordpress business](/img/woo-wpcom-confirm-business-plan-price.png)
-
+<img src="/img/woo-wpcom-confirm-business-plan-price.png" alt="harga plan wordpress business"/>
 Yup. **Tiga juta** lebih. 
 
 Menurut saya harga plan ini terlalu mahal dibandingkan plan yang hampir serupa yang ditawarkan oleh salah satu perusahaan web hosting yang saat ini saya gunakan, idcloudhost.com.
