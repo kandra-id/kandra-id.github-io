@@ -1,0 +1,186 @@
+---
+layout: page
+title: Kalkulator Premi Asuransi Motor
+permalink: /premi-asuransi-motor
+---
+<form id="form1">
+    <label>Harga Pertanggungan :</label><input type="number" id="sum-insured" name="harga kendaraan" placeholder="Harga Kendaraan" lang="en-150" min="4000000" max="1000000000">
+    <label>Kode Plat Nomor :</label><select name="nopol" id="nopol" class="">
+    <option value="">--Pilih Kode Plat--</option>
+    <option value="a">A</option>
+    <option value="aa">AA</option>
+    <option value="ab">AB</option>
+    <option value="ad">AD</option>
+    <option value="ae">AE</option>
+    <option value="ag">AG</option>
+    <option value="b">B</option>
+    <option value="ba">BA</option>
+    <option value="bb">BB</option>
+    <option value="bd">BD</option>
+    <option value="be">BE</option>
+    <option value="bg">BG</option>
+    <option value="bh">BH</option>
+    <option value="bk">BK</option>
+    <option value="bl">BL</option>
+    <option value="bm">BM</option>
+    <option value="bn">BN</option>
+    <option value="bp">BP</option>
+    <option value="d">D</option>
+    <option value="da">DA</option>
+    <option value="db">DB</option>
+    <option value="dc">DC</option>
+    <option value="dd">DD</option>
+    <option value="de">DE</option>
+    <option value="dg">DG</option>
+    <option value="dh">DH</option>
+    <option value="dk">DK</option>
+    <option value="dl">DL</option>
+    <option value="dm">DM</option>
+    <option value="dn">DN</option>
+    <option value="dr">DR</option>
+    <option value="ds">DS</option>
+    <option value="dt">DT</option>
+    <option value="e">E</option>
+    <option value="ea">EA</option>
+    <option value="eb">EB</option>
+    <option value="ed">ED</option>
+    <option value="ef">F</option>
+    <option value="g">G</option>
+    <option value="h">H</option>
+    <option value="k">K</option>
+    <option value="kb">KB</option>
+    <option value="kh">KH</option>
+    <option value="kt">KT</option>
+    <option value="l">L</option>
+    <option value="m">M</option>
+    <option value="n">N</option>
+    <option value="p">P</option>
+    <option value="r">R</option>
+    <option value="s">S</option>
+    <option value="t">T</option>
+    <option value="w">W</option>
+    <option value="z">Z</option>
+    </select>
+    <label>Masa Pinjaman/Pembiayaan:</label><input type="number" name="tenor" id="tenor" placeholder="Tenor (dlm bulan)">
+    </form>
+    <button onclick="myFunction()" class="btn">Hasil</button>
+    
+    <table id="demo" class="hasil"></table>
+    <script type="text/javascript">
+    function myFunction(){
+    const show = document.getElementById("form1");
+    const si = document.getElementById("sum-insured").value;
+    const numSi = Number.parseFloat(si).toFixed(2);
+    const outputSi = numSi.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    const show1 = document.getElementById("nopol").value;
+    var zoneSatu = ["ba","bb","bd","be","bg","bh","bk","bl","bm","bn","bp"];
+    var zoneDua = ["a","b","d","e","f","g","h","k","t","w","z"];
+    var zoneTiga = ["aa","ab","ad","ae","ag","da","db","dc","dd","de","dg","dh","dk","dl","dm","dn","dr","ds","dt","ea","eb","ed","kb","kh","kt"];
+    var rate = [2.11/100, 2.16/100, 0.80/100];
+    var zone = function (){
+    if (show1 == zoneSatu[0]){
+    return rate[0];
+    } else if (show1 == zoneSatu[1]){
+    return rate[0];
+    } else if (show1 == zoneSatu[2]){
+    return rate[0];
+    } else if (show1 == zoneSatu[3]){
+    return rate[0];
+    } else if (show1 == zoneSatu[4]){
+    return rate[0];
+    } else if (show1 == zoneSatu[5]){
+    return rate[0];
+    }  else if (show1 == zoneSatu[6]){
+    return rate[0];
+    }  else if (show1 == zoneSatu[7]){
+    return rate[0];
+    }  else if (show1 == zoneSatu[8]){
+    return rate[0];
+    } else if (show1 == zoneSatu[9]){
+    return rate[0];
+    } else if (show1 == zoneSatu[10]){
+    return rate[0];
+    } else if (show1 == zoneDua[0]){
+    return rate[1];
+    } else if (show1 == zoneDua[1]){
+    return rate[1];
+    } else if (show1 == zoneDua[2]){
+    return rate[1];
+    } else if (show1 == zoneDua[3]){
+    return rate[1];
+    } else if (show1 == zoneDua[4]){
+    return rate[1];
+    } else if (show1 == zoneDua[5]){
+    return rate[1];
+    } else if (show1 == zoneDua[6]){
+    return rate[1];
+    } else if (show1 == zoneDua[7]){
+    return rate[1];
+    } else if (show1 == zoneDua[9]){
+    return rate[1];
+    } else if (show1 == zoneDua[10]){
+    return rate[1];
+    } else if (show1 == zoneTiga[0]){
+    return rate[2];
+    } else if (show1 == zoneTiga[1]){
+    return rate[2];
+    } else if (show1 == zoneTiga[2]){
+    return rate[2];
+    } else if (show1 == zoneTiga[3]){
+    return rate[2];
+    } else if (show1 == zoneTiga[4]){
+    return rate[2];
+    } else if (show1 == zoneTiga[5]){
+    return rate[2];
+    } else if (show1 == zoneTiga[7]){
+    return rate[2];
+    } else if (show1 == zoneTiga[8]){
+    return rate[2];
+    } else if (show1 == zoneTiga[9]){
+    return rate[2];
+    } else if (show1 == zoneTiga[10]){
+    return rate[2];
+    } else if (show1 == zoneTiga[11]){
+    return rate[2];
+    } else if (show1 == zoneTiga[12]){
+    return rate[2];
+    } else if (show1 == zoneTiga[13]){
+    return rate[2];
+    } else if (show1 == zoneTiga[14]){
+    return rate[2];
+    } else if (show1 == zoneTiga[15]){
+    return rate[2];
+    } else if (show1 == zoneTiga[16]){
+    return rate[2];
+    } else if (show1 == zoneTiga[17]){
+    return rate[2];
+    } else if (show1 == zoneTiga[18]){
+    return rate[2];
+    } else if (show1 == zoneTiga[19]){
+    return rate[2];
+    } else if (show1 == zoneTiga[20]){
+    return rate[2];
+    } else if (show1 == zoneTiga[21]){
+    return rate[2];
+    } else if (show1 == zoneTiga[22]){
+    return rate[2];
+    } else if (show1 == zoneTiga[23]){
+    return rate[2];
+    } else if (show1 == zoneTiga[24]){
+    return rate[2];
+    } else {
+    return "cek lagi kodenya";
+    }
+    }
+    var period = document.getElementById("tenor").value;
+    var insPeriod = period/12;
+    var premi = si * zone() * insPeriod;
+    var numPremi = Number.parseFloat(premi).toFixed(2);
+    var outputPremi = numPremi.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    
+    document.getElementById("demo").innerHTML = "<table><tr><td>Total Sum Insured</td>" + "<td>Rp.</td>" + "<td>" + outputSi + "</td></tr>";
+    document.getElementById("demo").innerHTML += "<tr><td>Rate Asuransi Based on Plat</td>" + "<td></td><td>" + zone() + "</td></tr>";
+    document.getElementById("demo").innerHTML += "<tr><td>Periode Pinjaman / Asuransi</td>" + "<td></td><td>" + insPeriod + " " + "Tahun</td></tr>";
+    document.getElementById("demo").innerHTML += "<tr><td>Premi sebelum bea admin & materai</td>" + "<td>Rp.</td><td>" + outputPremi + "</td></tr></table>";
+    };
+    </script>
