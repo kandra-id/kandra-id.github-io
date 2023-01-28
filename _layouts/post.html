@@ -3,7 +3,41 @@ layout: default
 ---
 {% include nav-post.html %}
 <article class="container-fluid mx-1">
-  {% include schemaorg.html %}
+  <script type='application/ld+json'>
+    {
+        "@context": "http://schema.org",
+        "type": "Blogposting",
+        "mainEntityOfPage": {
+            "@type": "Webpage",
+            "id": {{ post.url }},
+        },
+        "headline": {{ post.title }},
+        "description": {{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }},
+        "datePublished": {{ post.date }},
+        "dateModified": {{ post.date }},
+        "image": {
+            "type": "ImageObject",
+            "url": "{{ post.image }}",
+            "height": ,
+            "width": 
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "github pages",
+            "logo": {
+            "@type": "ImageObject",
+            "url": ""
+            "width": ,
+            "height": ,
+        }
+        },
+        "author": {
+            "url": "{{ site.url }}",
+            "type": "Person",
+            "name": "Kandra Wilko"
+        }
+    }
+    </script>
   <h1 class="display-4 mt-3 py-3 text-center">
     {{ page.title }}
   </h1>
