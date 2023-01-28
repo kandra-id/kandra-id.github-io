@@ -11,7 +11,7 @@ layout: default
         "type": "Blogposting",
         "mainEntityOfPage": {
             "@type": "Webpage",
-            "id": "{{ post.url }}",
+            "id": "{{ post.url }}"
         },
         "headline": "{{ post.title }}",
         "description": "{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}",
@@ -19,19 +19,9 @@ layout: default
         "dateModified": "{{ post.date }}",
         "image": {
             "type": "ImageObject",
-            "url": "{{ post.image }}",
-            "height": ,
-            "width": 
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "github pages",
-            "logo": {
-            "@type": "ImageObject",
-            "url": ""
-            "width": ,
-            "height": ,
-        }
+            "url": "https://yt3.ggpht.com/ytc/AL5GRJXaIIAnqofLW6Tysn0cwDcqSK7bTpNqoHgyuKw_RQ=s800-c-k-c0x00ffffff-no-rj",
+            "height": 200,
+            "width": 200
         },
         "author": {
             "url": "{{ site.url }}",
