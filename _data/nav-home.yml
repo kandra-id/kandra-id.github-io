@@ -1,0 +1,10 @@
+- name: about
+  url : /
+- name: experience
+  url: /#experience
+- name: education
+  url: /#education
+- name: interests
+  url: /#interests
+- name: Blog
+  url: /blog

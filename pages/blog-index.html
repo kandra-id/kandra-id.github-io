@@ -1,0 +1,18 @@
+---
+layout: page
+title: Blog
+permalink: /blog
+---
+
+<div class="d-flex flex-column flex-md-row justify-content-between">
+    <div class="resume-content">
+        <ul class="list-unstyled">
+            {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}"><h3 class="subheading"> {{post.title}} </h3></a>
+                <p>{{ post.content | strip_html | truncate: 140 }}</p>    
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
