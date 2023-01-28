@@ -3,21 +3,23 @@
   isi: 250 ml
   Harga: 80,000
   currency: Rp
+  gambar:
 
 - nama: Madu Habbat
   komposisi: Madu
   isi:  250 gr
   harga: 130,000
   currency: Rp
-
+  gambar:
 - nama: Madu Multiflora
   komposisi: Madu
   isi:  250 gr
   harga: 100,000
   currency: Rp
-
+  gambar:
 - nama: Madu Pahit
   komposisi: Madu
   isi:  250 gr
   harga: 120,000
   currency: Rp
+  gambar:
