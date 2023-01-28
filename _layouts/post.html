@@ -11,7 +11,7 @@ layout: default
         "type": "Blogposting",
         "mainEntityOfPage": {
             "@type": "Webpage",
-            "id": "{{site.url}}{{ post.url }}"
+            "id": "https://{{site.url}}{{ post.url }}"
         },
         "headline": "{{ post.title }}",
         "description": "{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}",
