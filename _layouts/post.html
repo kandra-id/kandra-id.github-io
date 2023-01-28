@@ -3,6 +3,8 @@ layout: default
 ---
 {% include nav-post.html %}
 <article class="container-fluid mx-1">
+  {% for posts in site.posts %}
+  {% assign post = posts %}
   <script type='application/ld+json'>
     {
         "@context": "http://schema.org",
@@ -38,6 +40,7 @@ layout: default
         }
     }
     </script>
+  {% endfor %}
   <h1 class="display-4 mt-3 py-3 text-center">
     {{ page.title }}
   </h1>
