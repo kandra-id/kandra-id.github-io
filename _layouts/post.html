@@ -9,12 +9,12 @@ layout: default
         "type": "Blogposting",
         "mainEntityOfPage": {
             "@type": "Webpage",
-            "id": {{ post.url }},
+            "id": "{{ post.url }}",
         },
-        "headline": {{ post.title }},
-        "description": {{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }},
-        "datePublished": {{ post.date }},
-        "dateModified": {{ post.date }},
+        "headline": "{{ post.title }}",
+        "description": "{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}",
+        "datePublished": "{{ post.date }}",
+        "dateModified": "{{ post.date }}",
         "image": {
             "type": "ImageObject",
             "url": "{{ post.image }}",
