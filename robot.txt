@@ -1,4 +1,4 @@
-Sitemap: https://www.kandra-id/sitemap.xml
+Sitemap: https://www.kandra.id/sitemap.xml
 
 User-agent: Googlebot
 Disallow: /nogooglebot/
