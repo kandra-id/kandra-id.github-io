@@ -4,9 +4,10 @@ email: halo@kandra.id
 description: Summary of Kandra Wilko work experience, educational background and basic information
 url: www.kandra.id #base protocol or hostname of your website
 baseurl: ""
-
+theme: minimal-mistakes-jekyll
 
 plugins:
     - jekyll-sitemap
     - jekyll-feed
     - jekyll-redirect-from
+    - jekyll-include-cache
